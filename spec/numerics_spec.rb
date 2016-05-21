@@ -12,4 +12,16 @@ describe Numerics do
       Numerics.odd?(4) == false
     }
   end
+  
+  it 'even test (true)' do
+    assert {
+      Numerics.even?(4) == true
+    }
+  end
+  
+  it 'even test (false)' do
+    assert {
+      Numerics.even?(3) == false
+    }
+  end
 end
