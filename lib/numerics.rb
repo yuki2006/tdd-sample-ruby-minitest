@@ -7,5 +7,5 @@ module Numerics
   def even?(num)
     !odd?(num)
   end
-  module_function :odd? :even?
+  module_function :odd? , :even?
 end
