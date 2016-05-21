@@ -3,5 +3,5 @@ module Numerics
     num % 2 != 0
   end
 
-  module_function :odd?
+  module_function :odd? :even?
 end
